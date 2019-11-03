@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网页制作一</title>
+</head>
+<style>
+ .shiyue{
+     border:2px solid red;
+    float:left;
+     height:400px;
+     width:300px;
+ }
+ .keshuhuiyi{
+     float:right;    
+     border:2px solid red;
+    height:400px;
+    width:300px;
+    }
+    p{color:hotpink;}
+    div{
+        display:inline-block;
+        border:2px solid red
+    }
+    footer{
+             border:2px solid red;
+             height:150px;
+              
+             margin-bottom:1.5%;
+}
+     footer{font-size:20px}
+     a{color:hotpink;
+     font-size:25px;}
+ </style>
+<body bgcolor="powderblue">    
+  
+    <img src="./零零六号.jpg"  >
+    
+    <h1 align="center">
+        涅槃
+    </h1>
+    <div class="shiyue">
+      
+       <h2 style="text-align:center">四月是你的谎言
+        <br/><a href="https://www.bilibili.com/bangumi/play/ss1699/
+        ">April is your lie</a>
+    </h2 >
+     
+
+
+       <p>就像登上山顶前，黎明前的黑暗，充满神秘却又在努力按耐自己激动的心情。然后慢慢登上最高峰，看到一丝阳光温存于云海蓄势待发，随后旭日破晓而出，初生红日的光芒照耀在我们兴奋的脸颊上。享受这世界给予我们的温柔</p>
+    </div>
+    <div class="keshuhuiyi">
+        <h2 style="text-align:center">可塑回忆</h2>
+    </div>
+    <footer style="text-align:center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem voluptas? Et, cum! Quae voluptatum temporibus cum corrupti, itaque praesentium consequatur possimus voluptate fugit. Inventore id ratione earum numquam tempora?</footer>
+</body>
+</html>
