@@ -9,14 +9,31 @@
            span{
                text-indent: 20px;
                /* 对块级元素产生效果 */
-               font-size: 40px;
+               font-size: 4px;
                letter-spacing:10px;
               text-decoration:underline;
               border:1px solid yellowgreen;
-              display:inline-block；
+             float:right;
+             width:100px;
            }
+            div{
 
-
+                float:left;
+                width:300px;
+            background-color:springgreen;
+            word-spacing:10px;
+            text-decoration: underline;
+  }
+         .one{
+             background-color:darkgoldenrod;
+             position:relative;
+             left:20px;
+             top:20px
+         }
+         .two{
+            border: 2px dashed #dddddd
+         }
+ 
     </style>
 
 </head>
@@ -24,6 +41,7 @@
     <span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, totam amet! Beatae ducimus voluptatum quos ipsa voluptatem temporibus doloribus nam debitis iste, quas veritatis magni possimus assumenda. Culpa, reiciendis incidunt.
     </span>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit soluta possimus veritatis optio nostrum quibusdam distinctio dolore suscipit alias culpa, ipsam expedita pariatur, sit nam qui. Et sit fugiat quas?<div class="two"><div class="one">lalla</div></div> </div>
     
 </body>
 </html>
