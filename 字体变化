@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>字体变形</title>
+    <style>
+           span{
+               text-indent: 20px;
+               /* 对块级元素产生效果 */
+               font-size: 40px;
+               letter-spacing:10px;
+              text-decoration:underline;
+              border:1px solid yellowgreen;
+              display:inline-block；
+           }
+
+
+    </style>
+
+</head>
+<body>
+    <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, totam amet! Beatae ducimus voluptatum quos ipsa voluptatem temporibus doloribus nam debitis iste, quas veritatis magni possimus assumenda. Culpa, reiciendis incidunt.
+    </span>
+    
+</body>
+</html>
