@@ -2,59 +2,146 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>网页制作一</title>
+    <title>对照书写</title>
 </head>
 <style>
- .shiyue{
-     border:2px solid red;
-    float:left;
-     height:400px;
-     width:300px;
- }
- .keshuhuiyi{
-     float:right;    
-     border:2px solid red;
-    height:400px;
-    width:300px;
+    *{
+    box-sizing: border-box;
+    margin:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    p{color:hotpink;}
-    div{
-        display:inline-block;
-        border:2px solid red
-    }
-    footer{
-             border:2px solid red;
-             height:150px;
+    .dadad{
+        background-color:cornflowerblue;
+        padding:40px;
+        height:160px;
+        
+         }
+         .la{
+             color:white;
+         }
+         .bu{
+             color:yellow
+         }
+         .llaal{
+             background-color:powderblue;
+             
+             
+         }
+         .lalaal{
+             background-color: darkolivegreen;
+             display: bolck;
+             height: 40px;
+             text-decoration-color: white;
+             padding:10px;
+            }
+           
+            .hahaah{
               
-             margin-bottom:1.5%;
-}
-     footer{font-size:20px}
-     a{color:hotpink;
-     font-size:25px;}
- </style>
-<body bgcolor="powderblue">    
-  
-    <img src="./零零六号.jpg"  >
-    
-    <h1 align="center">
-        涅槃
-    </h1>
-    <div class="shiyue">
-      
-       <h2 style="text-align:center">四月是你的谎言
-        <br/><a href="https://www.bilibili.com/bangumi/play/ss1699/
-        ">April is your lie</a>
-    </h2 >
-     
+                float:left;
+                width:30%;
+                height:1000px;
+                padding:20px;
+                background-color:slategrey;
 
 
-       <p>就像登上山顶前，黎明前的黑暗，充满神秘却又在努力按耐自己激动的心情。然后慢慢登上最高峰，看到一丝阳光温存于云海蓄势待发，随后旭日破晓而出，初生红日的光芒照耀在我们兴奋的脸颊上。享受这世界给予我们的温柔</p>
+            }
+            .nanana{
+              
+                float:left;
+                width:70%;
+                height:1000px;
+
+            }
+            .footer{
+                background-color: silver;
+               height:100px;
+                clear: both;
+                padding:60px;
+                text-align:center;
+                font-size:40px
+             }
+             .dadad{
+                 background-color:yellowgreen;
+             }
+            
+             
+             .qwerty{
+                background-color: yellowgreen;
+                height:40px;
+                text-align:center;
+                padding:10px;
+                margin-bottom:10px;
+             }
+             a{
+                color:lime;
+                 padding:px;
+             }
+         
+</style>
+<body>
+<div class="dadad">
+    <h1 class="la" style="text-align:center">阿鲁巴</h1>
+    <p class="bu" style="text-align:center">study magrin</p>
+</div>
+<div class="lalaal">
+<a href="https://www.bilibili.com/bangumi/media/md28222734">一个链接</a>
+<a href="https://www.bilibili.com/bangumi/media/md28222749">又一个链接</a>
+<a href="https://www.bilibili.com/bangumi/media/md28222723" style="float:right">又双叒叕是一个链接</a>
+</div>
+<div class="hahaah">
+    <h1>大大的标题哦</h1>
+    <br/>
+    <div class="qwerty" style="height:50px"> 啦啦啦小段落哦</div>
+    <br/>
+    <div class="dadada">
+        嘿嘿
     </div>
-    <div class="keshuhuiyi">
-        <h2 style="text-align:center">可塑回忆</h2>
+    <br/>
+    <p>四点午后的大时代大时代</p>
+    <br/>
+    <h2>嘿成了第二段落哦</h2>
+    <br/>
+    <p>lalalalboder</p>
+    <br/>
+    <div>
+        <div class="qwerty">
+            这是一个
+        </div>
+        <div class="qwerty">
+            这又是一个
+        </div>
+        <div class="qwerty">
+        又双叒叕是一个
+        </div>
     </div>
-    <footer style="text-align:center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem voluptas? Et, cum! Quae voluptatum temporibus cum corrupti, itaque praesentium consequatur possimus voluptate fugit. Inventore id ratione earum numquam tempora?</footer>
+</div>
+<div class="nanana">
+    <h1>哈哈哈哈哈哈哈哈哈哈哈哈</h1>
+    <br/>
+    <p>
+        不啦不啦不啦
+    </p>
+    <br/>
+    <div class="qwerty" style="height: 67px;">一个大的块</div>
+    <br/>
+    <p>有些丑别建议</p>
+    <br/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quasi doloremque atque distinctio excepturi fugiat dolorum. Tempora molestiae voluptas excepturi quam sunt recusandae nemo error, culpa laborum temporibus dolorem id.</p>
+    <br/>
+    <br/>
+    <h1>第二个标题</h1>
+    <br/>
+    <p>第二个段落</p>
+    <div class="qwerty" style="height:100px">一个大块</div>
+    <br/>
+    somer text....
+    <br/>
+    <i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad perferendis placeat fugiat pariatur reprehenderit corrupti labore beatae aperiam, optio nobis sint debitis laborum ipsam unde minus maxime consequatur veniam dignissimos.</i>    
+
+</div>
+<div class="footer">footer</div>
+
 </body>
 </html>
